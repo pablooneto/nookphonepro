@@ -1,0 +1,10 @@
+.appsGrid {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.appsGrid > * {
+	width: 33.3%;
+	display: flex;
+}

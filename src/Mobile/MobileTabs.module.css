@@ -1,0 +1,18 @@
+.mobileTabs {
+    display: flex;
+    justify-content: center;
+}
+
+.mobileTab.selected {
+    background: #73685d;
+    color: #f9f3e7;
+    font-weight: normal;
+}
+
+.mobileTab {
+    cursor: pointer;
+    border: 2px solid #73685d;
+    padding: 0.2em 0.4em;
+    border-radius: 0.5em;
+    margin: 0 0.2em;
+}

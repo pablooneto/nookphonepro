@@ -1,0 +1,53 @@
+.mobileListElement {
+	display: flex;
+    line-height: 2.5;
+    border-bottom: 2px dashed rgba(114, 103, 93, 0.2);
+}
+
+.mobileListElement.mobileListElementTitle {
+
+}
+
+.mobileListIcon {
+    height: 2.5em;
+    margin: 0;
+    vertical-align: bottom;
+}
+
+
+.col-1 {
+    width: 8.33%; align-items: center; display: flex;
+}
+.col-2 {
+    width: 16.67%; align-items: center; display: flex;
+}
+.col-3 {
+    width: 25%; align-items: center; display: flex;
+}
+.col-4 {
+    width: 33.33%; align-items: center; display: flex;
+}
+.col-5 {
+    width: 41.67%; align-items: center; display: flex;
+}
+.col-6 {
+    width: 50%; align-items: center; display: flex;
+}
+.col-7 {
+    width: 58.33%; align-items: center; display: flex;
+}
+.col-8 {
+    width: 66.67%; align-items: center; display: flex;
+}
+.col-9 {
+    width: 75%; align-items: center; display: flex;
+}
+.col-10 {
+    width: 83.33%; align-items: center; display: flex;
+}
+.col-11 {
+    width: 91.67%; align-items: center; display: flex;
+}
+.col-12 {
+    width: 100%; align-items: center; display: flex;
+}

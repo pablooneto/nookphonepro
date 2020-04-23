@@ -1,0 +1,29 @@
+.mobileCheckbox {
+	display: flex;
+    align-items: center;
+}
+
+.check {
+    cursor: pointer;
+    border: 2px solid #73685d;
+    padding: 0.2em 0.4em;
+    border-radius: 0.5em;
+    margin: 0 0.2em;
+    font-weight: bold;
+    height: 1.1em;
+    width: 0.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check.checked {
+    background: #73685d;
+    color: #f9f3e7;
+}
+.check.checked::after {
+    content : '✓';
+}
+
+.label {
+}
