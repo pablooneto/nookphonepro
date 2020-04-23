@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a21f3d3148cfaa1c5c3d24bf81348a62",
+    "revision": "0e33fb637f295efa8d21015fcfc3085f",
     "url": "/nookphonepro/index.html"
   },
   {
-    "revision": "1648cf3700be1577b56d",
+    "revision": "b92656891573be2a8e91",
     "url": "/nookphonepro/static/css/main.cf1ba6b6.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nookphonepro/static/js/2.741c5e06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1648cf3700be1577b56d",
-    "url": "/nookphonepro/static/js/main.e316947f.chunk.js"
+    "revision": "b92656891573be2a8e91",
+    "url": "/nookphonepro/static/js/main.069a2ebd.chunk.js"
   },
   {
     "revision": "7ed689c44263ff6acf63",
