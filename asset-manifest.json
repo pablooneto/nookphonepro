@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nookphonepro/static/css/main.cf1ba6b6.chunk.css",
-    "main.js": "/nookphonepro/static/js/main.94466f12.chunk.js",
-    "main.js.map": "/nookphonepro/static/js/main.94466f12.chunk.js.map",
+    "main.css": "/nookphonepro/static/css/main.da2e31c9.chunk.css",
+    "main.js": "/nookphonepro/static/js/main.d981277e.chunk.js",
+    "main.js.map": "/nookphonepro/static/js/main.d981277e.chunk.js.map",
     "runtime-main.js": "/nookphonepro/static/js/runtime-main.f05826ee.js",
     "runtime-main.js.map": "/nookphonepro/static/js/runtime-main.f05826ee.js.map",
-    "static/js/2.741c5e06.chunk.js": "/nookphonepro/static/js/2.741c5e06.chunk.js",
-    "static/js/2.741c5e06.chunk.js.map": "/nookphonepro/static/js/2.741c5e06.chunk.js.map",
+    "static/js/2.3bf931e3.chunk.js": "/nookphonepro/static/js/2.3bf931e3.chunk.js",
+    "static/js/2.3bf931e3.chunk.js.map": "/nookphonepro/static/js/2.3bf931e3.chunk.js.map",
     "index.html": "/nookphonepro/index.html",
-    "precache-manifest.b45f6f3f2873aea531454747cb852ae7.js": "/nookphonepro/precache-manifest.b45f6f3f2873aea531454747cb852ae7.js",
+    "precache-manifest.569eec180c2683802c7ede68c34b6db0.js": "/nookphonepro/precache-manifest.569eec180c2683802c7ede68c34b6db0.js",
     "service-worker.js": "/nookphonepro/service-worker.js",
-    "static/css/main.cf1ba6b6.chunk.css.map": "/nookphonepro/static/css/main.cf1ba6b6.chunk.css.map",
-    "static/js/2.741c5e06.chunk.js.LICENSE.txt": "/nookphonepro/static/js/2.741c5e06.chunk.js.LICENSE.txt"
+    "static/css/main.da2e31c9.chunk.css.map": "/nookphonepro/static/css/main.da2e31c9.chunk.css.map",
+    "static/js/2.3bf931e3.chunk.js.LICENSE.txt": "/nookphonepro/static/js/2.3bf931e3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f05826ee.js",
-    "static/js/2.741c5e06.chunk.js",
-    "static/css/main.cf1ba6b6.chunk.css",
-    "static/js/main.94466f12.chunk.js"
+    "static/js/2.3bf931e3.chunk.js",
+    "static/css/main.da2e31c9.chunk.css",
+    "static/js/main.d981277e.chunk.js"
   ]
 }
