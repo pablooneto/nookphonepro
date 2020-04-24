@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/nookphonepro/static/css/main.abfb2ff7.chunk.css",
+    "main.css": "/nookphonepro/static/css/main.09086c00.chunk.css",
     "main.js": "/nookphonepro/static/js/main.0155da31.chunk.js",
     "main.js.map": "/nookphonepro/static/js/main.0155da31.chunk.js.map",
     "runtime-main.js": "/nookphonepro/static/js/runtime-main.f05826ee.js",
@@ -8,15 +8,15 @@
     "static/js/2.beecc237.chunk.js": "/nookphonepro/static/js/2.beecc237.chunk.js",
     "static/js/2.beecc237.chunk.js.map": "/nookphonepro/static/js/2.beecc237.chunk.js.map",
     "index.html": "/nookphonepro/index.html",
-    "precache-manifest.d5ce90f6aae3c62e88dc4d099ffb3e7b.js": "/nookphonepro/precache-manifest.d5ce90f6aae3c62e88dc4d099ffb3e7b.js",
+    "precache-manifest.7f1770526305623405ead5792e40e78d.js": "/nookphonepro/precache-manifest.7f1770526305623405ead5792e40e78d.js",
     "service-worker.js": "/nookphonepro/service-worker.js",
-    "static/css/main.abfb2ff7.chunk.css.map": "/nookphonepro/static/css/main.abfb2ff7.chunk.css.map",
+    "static/css/main.09086c00.chunk.css.map": "/nookphonepro/static/css/main.09086c00.chunk.css.map",
     "static/js/2.beecc237.chunk.js.LICENSE.txt": "/nookphonepro/static/js/2.beecc237.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f05826ee.js",
     "static/js/2.beecc237.chunk.js",
-    "static/css/main.abfb2ff7.chunk.css",
+    "static/css/main.09086c00.chunk.css",
     "static/js/main.0155da31.chunk.js"
   ]
 }
