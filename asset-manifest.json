@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nookphonepro/static/css/main.9d45f6ac.chunk.css",
-    "main.js": "/nookphonepro/static/js/main.b8ab6162.chunk.js",
-    "main.js.map": "/nookphonepro/static/js/main.b8ab6162.chunk.js.map",
+    "main.css": "/nookphonepro/static/css/main.e7a6bf4a.chunk.css",
+    "main.js": "/nookphonepro/static/js/main.b7504ee7.chunk.js",
+    "main.js.map": "/nookphonepro/static/js/main.b7504ee7.chunk.js.map",
     "runtime-main.js": "/nookphonepro/static/js/runtime-main.f05826ee.js",
     "runtime-main.js.map": "/nookphonepro/static/js/runtime-main.f05826ee.js.map",
     "static/js/2.beecc237.chunk.js": "/nookphonepro/static/js/2.beecc237.chunk.js",
     "static/js/2.beecc237.chunk.js.map": "/nookphonepro/static/js/2.beecc237.chunk.js.map",
     "index.html": "/nookphonepro/index.html",
-    "precache-manifest.07c315ff8a73fe78cffd4c296d76e5af.js": "/nookphonepro/precache-manifest.07c315ff8a73fe78cffd4c296d76e5af.js",
+    "precache-manifest.cc46683a04f5fa654ba0b9c9cf17b7b6.js": "/nookphonepro/precache-manifest.cc46683a04f5fa654ba0b9c9cf17b7b6.js",
     "service-worker.js": "/nookphonepro/service-worker.js",
-    "static/css/main.9d45f6ac.chunk.css.map": "/nookphonepro/static/css/main.9d45f6ac.chunk.css.map",
+    "static/css/main.e7a6bf4a.chunk.css.map": "/nookphonepro/static/css/main.e7a6bf4a.chunk.css.map",
     "static/js/2.beecc237.chunk.js.LICENSE.txt": "/nookphonepro/static/js/2.beecc237.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f05826ee.js",
     "static/js/2.beecc237.chunk.js",
-    "static/css/main.9d45f6ac.chunk.css",
-    "static/js/main.b8ab6162.chunk.js"
+    "static/css/main.e7a6bf4a.chunk.css",
+    "static/js/main.b7504ee7.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nookphonepro/precache-manifest.07c315ff8a73fe78cffd4c296d76e5af.js"
+  "/nookphonepro/precache-manifest.cc46683a04f5fa654ba0b9c9cf17b7b6.js"
 );
 
 self.addEventListener('message', (event) => {
