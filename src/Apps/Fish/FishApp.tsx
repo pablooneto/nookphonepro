@@ -12,7 +12,10 @@ import {
   MobileListIcon,
   MobileListLabel,
   MobileListCheck,
-  MobileCheckbox
+  MobileCheckbox,
+  MobileToolbar,
+  MobileToolbarButton,
+  MobileToolbarCheckbox
 } from '../../Mobile/Mobile';
 
 export interface OwnProps {
@@ -96,7 +99,7 @@ class ConnectedFishApp extends React.Component<Props, State> {
   }
 
   determineIcon (element: any) {
-    return 'assets/fish-app/' + element.image + '.png';
+    return process.env.REACT_APP_BASE_URL + '/assets/fish-app/' + element.image + '.png';
   }
 
   determineCaptured (element: any) {
@@ -107,9 +110,9 @@ class ConnectedFishApp extends React.Component<Props, State> {
     }
   }
 
-  toggleHideCaptured (hideCaptured: boolean) {
-    this.applyFilter(this.state.selectedTab, hideCaptured);
-    this.setState({ hideCaptured: hideCaptured });
+  toggleHideCaptured () {
+    this.applyFilter(this.state.selectedTab, !this.state.hideCaptured);
+    this.setState({ hideCaptured: !this.state.hideCaptured });
   }
 
   toggleCapture (captured: boolean, element: any) {
@@ -125,12 +128,13 @@ class ConnectedFishApp extends React.Component<Props, State> {
     return (
       <div>
         <MobileBar title="Fish"/>
-        <MobileTabs
-        	tabs={tabs}
-        	selectedTab={this.state.selectedTab}
-          onChangeTab={(tabName) => this.selectTab(tabName)}
-        />
-        <MobileCheckbox checked={this.state.hideCaptured} label="Hide catched" onChange={(hideCaptured: boolean) => this.toggleHideCaptured(hideCaptured)}/>
+        <MobileToolbar>
+          <MobileToolbarButton label="Now"    active={this.state.selectedTab=="Now"}    onClick={()=>this.selectTab("Now")}/>
+          <MobileToolbarButton label="Today"  active={this.state.selectedTab=="Today"}  onClick={()=>this.selectTab("Today")}/>
+          <MobileToolbarButton label="Always" active={this.state.selectedTab=="Always"} onClick={()=>this.selectTab("Always")}/>
+          <MobileToolbarCheckbox active={this.state.hideCaptured} label="Hide catched" onClick={() => this.toggleHideCaptured()}/>
+        </MobileToolbar>
+
         <MobileList elements={this.state.fish_list}>
           <MobileListIcon  size={1} name=""        determineValue={(element: any) => this.determineIcon(element)} />
           <MobileListLabel size={6} name="Name"    determineValue={(element: any) => element.name} />

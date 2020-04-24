@@ -2,7 +2,7 @@
 	color: #74695d;
     background: #f9f3e7;
     padding: 1em 2em;
-    border-radius: 2.5em;
+    border-radius: 5em;
     margin: 2em;
     max-width: 600px;
     width: 100%;
@@ -23,4 +23,41 @@
     flex-grow: 1; 
     max-height: 100%;
     overflow: hidden auto;
+    margin: 0 -2em;
+    padding: 0 2em;
+}
+
+.phoneButtons {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.homeButton {
+    height: 4em;
+    width: 4em;
+    border: 2px solid #73685d;
+    border-radius: 100%;
+    background: #e4ddd1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeButton img {
+    height: 75%;
+}
+
+@media (max-width: 800px) and (orientation: portrait) {
+    .mobilePhone {
+        color: #74695d;
+        background: #f9f3e7;
+        padding: 0.5em;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .topBar {
+        display: none;
+    }
 }

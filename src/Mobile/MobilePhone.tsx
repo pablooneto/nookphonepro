@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './MobilePhone.module.css'; // Import css modules stylesheet as styles
 
 interface Props {
@@ -21,6 +22,13 @@ class MobilePhone extends React.Component<Props, State> {
         </div>
         <div className={styles.openedApp}>
           {this.props.children}
+        </div>
+        <div className={styles.phoneButtons}>
+          <Link to="/">
+            <div className={styles.homeButton}>
+              <img src={process.env.REACT_APP_BASE_URL + '/assets/leaf.svg'} />
+            </div>
+          </Link>
         </div>
       </div>
     );

@@ -13,26 +13,26 @@ class HomeApp extends React.Component {
         <div className={styles.appsGrid}>
           <Link to="/fish">
             <MobileIcon
-              icon="/assets/apps/fish.png"
-              label="Fish"
+              icon="/assets/apps/fish-app.png"
+              label="Fish List"
               />
           </Link>
-          <Link to="/fish">
+          <Link to="/flowers">
             <MobileIcon
-              icon="/assets/apps/fish.png"
-              label="Fish"
+              icon="/assets/apps/flowers-app.png"
+              label="Flower Guide"
               />
           </Link>
-          <Link to="/fish">
+          <Link to="/flowers">
             <MobileIcon
-              icon="/assets/apps/fish.png"
-              label="Fish"
+              icon="/assets/apps/mystery-islands-app.png"
+              label="Mystery Islands"
               />
           </Link>
-          <Link to="/fish">
+          <Link to="/settings">
             <MobileIcon
-              icon="/assets/apps/fish.png"
-              label="Fish"
+              icon="/assets/apps/settings-app.png"
+              label="Settings"
               />
           </Link>
         </div>

@@ -1,0 +1,12 @@
+.mobileAsset {
+    width: 100%;
+    height: 100%;
+}
+
+.mobileAssetCover {
+	object-fit: cover;
+}
+
+.mobileAssetContain {
+	object-fit: contain;
+}

@@ -13,7 +13,7 @@ import FishApp from './Apps/Fish/FishApp';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={process.env.REACT_APP_BASE_URL}>
       <MobilePhone>
         <Switch>
           <Route path="/about">
